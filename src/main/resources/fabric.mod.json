@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "suicide",
-  "description": "Kill yourself on Minecraft!",
+  "description": "Kill yourself in Minecraft with an easy command!",
   "authors": [
     "tobfos2611"
   ],
@@ -13,17 +13,16 @@
     "sources": "https://github.com/IdeaSpaceAnarchy/suicide"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "gpl-3.0",
+  "icon": "assets/suicide/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.ideaspace.suicide.suicide"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
